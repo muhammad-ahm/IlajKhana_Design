@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Share | IlajKhana</title><link rel="stylesheet" href="css/styles.css"></head><body data-layout="app" data-active="share">
+<h1 class="title">Share with a doctor <small>(Sprint 5)</small></h1>
+<div id="a"><p class="hint">Choose what the doctor can see and for how long.</p>
+<label class="check"><input type="checkbox" checked><span>City Clinic · 9 Nov 2026</span></label><label class="check"><input type="checkbox" checked><span>Karachi Diagnostic Lab · 21 Oct 2026</span></label><label class="check"><input type="checkbox"><span>Sunrise Hospital · 2 Sep 2026</span></label>
+<label class="field" style="margin-top:1rem"><span>Access lasts</span><select><option>1 hour</option><option>24 hours</option><option>7 days</option></select></label>
+<div class="row"><button class="btn" data-show="#b" data-hide="#a">Create QR pass</button></div></div>
+<div id="b" class="hidden"><div class="qr"></div><p class="ok" style="text-align:center">Expires in 59:59. Show this at the clinic.</p><div class="row"><button class="btn danger" data-show="#a" data-hide="#b">Revoke access now</button></div></div>
+<h2>Who looked at my records</h2>
+<div class="item plain"><div><b>Dr Ayesha, City Clinic</b><span>Viewed 2 records · 10 Nov, 11:20</span></div><span class="tag ok">Expired</span></div>
+<div class="item plain"><div><b>Karachi Diagnostic Lab</b><span>Viewed 1 report · 22 Oct, 09:05</span></div><span class="tag">Revoked</span></div>
+<script src="js/app.js"></script></body></html>
