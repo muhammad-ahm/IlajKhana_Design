@@ -10,6 +10,7 @@ Open `index.html` in a browser. No server or install needed. Resize the window t
 | reminders | 4 |
 | share (QR pass and access log) | 5 |
 | family, emergency | later |
+| doctor (what a doctor sees after scanning a QR pass), summary (printable health summary), privacy | 5 and later |
 | design-system | reference for every page |
 
 ## Rules
